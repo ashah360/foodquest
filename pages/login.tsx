@@ -40,7 +40,7 @@ const Login: NextPage = () => {
       );
 
       localStorage.setItem('_fqt', data.token);
-      router.push('/profile');
+      router.push('/feed');
     } catch (err) {
       if (axios.isAxiosError(err) && err.response?.data) {
         const { msg } = err.response.data as ErrorResponse;
