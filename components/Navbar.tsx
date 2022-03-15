@@ -22,6 +22,7 @@ const navigation = [
 const userNavigation = [
   { name: 'Feed', href: '/feed' },
   { name: 'My Orders', href: '/orders/me' },
+  { name: 'Admin', href: '/admin'},
   { name: 'Sign out', href: '#' },
 ];
 
