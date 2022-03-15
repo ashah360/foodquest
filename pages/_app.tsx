@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from '../resources/theme';
 import { GlobalStyle } from '../resources/globalStyles';
 import NavLayout from '../layouts/NavLayout';
+import { useRouter } from 'next/router';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
